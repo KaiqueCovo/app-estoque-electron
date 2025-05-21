@@ -1,5 +1,5 @@
-* {
-  margin: 0;  /* Espaçamentos externos */
-  padding: 0; /* Espaçamentos internos */
-  box-sizing: border-box; /* Tamanho da caixa */
+* { /* Seletor universal que afeta todos os elementos da página */
+  margin: 0;  /* Espaçamentos externos - remove todas as margens */
+  padding: 0; /* Espaçamentos internos - remove todo o padding */
+  box-sizing: border-box; /* Tamanho da caixa - inclui bordas e padding no tamanho total */
 }

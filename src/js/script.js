@@ -1,4 +1,6 @@
-var botaoEntrar = document.getElementById("submit")
+var botaoEntrar = document.getElementById("button-submit")
+
+console.log(botaoEntrar)
 
 function login() {
   // Pega o valor do campo email
@@ -20,5 +22,3 @@ function login() {
 
   console.log("Entrou na função login")
 }
-
-botaoEntrar.addEventListener("click", login )

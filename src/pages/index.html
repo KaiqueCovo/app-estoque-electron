@@ -1,29 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Electron APP</title>
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML5 -->
+<html lang="en"> <!-- Elemento raiz com atributo lang definindo o idioma como inglês -->
+<head> <!-- Seção de cabeçalho com metadados da página -->
+  <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar diferentes idiomas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização responsiva em dispositivos móveis -->
+  <title>Template Electron APP</title> <!-- Define o título da página exibido na aba do navegador -->
 
   <!-- Arquivo de estilos -->
-  <link rel="stylesheet" href="../styles/styles.css"> 
+  <link rel="stylesheet" href="../styles/styles.css"> <!-- Vincula o arquivo CSS externo para estilização da página -->
 </head>
-<body>
-  <h1>Gerenciador de estoque</h1>
+<body> <!-- Corpo do documento HTML onde todo conteúdo visível é colocado -->
+  <h1>Gerenciador de estoque</h1> <!-- Título principal da página (nível 1) -->
 
-  <div>
+  <div> <!-- Div que agrupa os elementos do formulário de login -->
 
-    <label for="email">E-mail</label>
-    <input type="email" id="email">
+    <label for="email">E-mail</label> <!-- Etiqueta para o campo de e-mail, associada ao input via atributo 'for' -->
+    <input type="email" id="email"> <!-- Campo de entrada para e-mail, com validação de formato -->
 
-    <label for="password">Senha</label>
-    <input type="password" id="password">
+    <label for="password">Senha</label> <!-- Etiqueta para o campo de senha, associada ao input via atributo 'for' -->
+    <input type="password" id="password"> <!-- Campo de entrada para senha, que mascara os caracteres -->
 
-    <button id="submit">Entrar no sistema</button>
+    <button id="button-submit">Entrar no sistema</button> <!-- Botão para enviar o formulário, com ID para referência via JavaScript -->
 
   </div>
 
   <!-- Arquivo para manipular nosso DOM -->
-  <script src="../js/script.js"></script>
-</body>
-</html>
+  <script src="../js/script.js"></script> <!-- Vincula o arquivo JavaScript externo para funcionalidades da página -->
+</body> <!-- Fim do corpo do documento -->
+</html> <!-- Fim do documento HTML -->
